@@ -1,4 +1,5 @@
 package model;
 
-public class Calculable {
+public interface Calculable {
+    double calcularPrecio();
 }

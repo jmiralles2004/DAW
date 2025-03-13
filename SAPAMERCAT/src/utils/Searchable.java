@@ -1,4 +1,5 @@
 package utils;
 
-public class Searchable {
+public interface Searchable<T> {
+    T buscar(String codiBarres);
 }
